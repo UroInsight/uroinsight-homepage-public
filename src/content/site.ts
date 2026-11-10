@@ -60,7 +60,7 @@ export const company: Company = {
 
 export const siteMetadata = {
   title: company.name,
-  description: "이미 촬영된 CT·MRI를 인공지능으로 다시 읽는 의료 AI 기업, 유로인사이트",
+  description: "CT와 MRI에서 진단의 단서를 찾는 의료 AI 기업",
 };
 
 // 메뉴 링크와 각 영역의 id가 같은 값을 쓰도록 여기서만 정의
@@ -105,20 +105,20 @@ export const hero: HeroContent = {
 export const about: SectionContent<FeatureItem> = {
   heading: {
     label: "About",
-    title: "이미 촬영된 영상을 다시 읽어\n추가 검사를 줄입니다",
+    title: "한 번의 촬영으로\n더 많은 것을 봅니다",
     description:
-      "(주)유로인사이트는 이미 촬영된 CT·MRI를 인공지능으로 재분석하는 의료 AI를 개발하고 있습니다.\n전립선 질환의 검진과 진단 과정에서 아래 문제를 해결하고자 합니다.",
+      "(주)유로인사이트는 CT와 MRI를 인공지능으로 재분석하는 기술을 만듭니다.\n전립선 질환 진료의 문제를 해결하고자 합니다.",
   },
   items: [
     {
       title: "전립선 용적 측정",
       description:
-        "경직장 초음파 검사는 불편하고 비용 부담이 큽니다. 복부 CT에 이미 담긴 전립선 정보는 대부분 활용되지 않고 있습니다.",
+        "경직장 초음파 검사는 불편하고 비용 부담이 큽니다. 복부 CT에 담긴 전립선 정보는 활용되지 않고 있습니다.",
     },
     {
       title: "전립선 MRI 판독",
       description:
-        "병원과 판독자에 따라 결과에 차이가 있고, 환자 증가로 영상의학 전문의의 업무 부담이 커지고 있습니다.",
+        "병원과 판독자에 따라 결과가 다르고, 영상의학 전문의는 부족합니다.",
     },
     {
       title: "유전자 검사",
@@ -131,9 +131,9 @@ export const about: SectionContent<FeatureItem> = {
 export const solutions: SolutionsContent = {
   heading: {
     label: "Solutions",
-    title: "AI 영상 재분석 기반\n검진–진단–유전자예측 통합 플랫폼",
+    title: "검진-진단-유전자예측까지 하나의 흐름으로",
     description:
-      "추가 촬영과 침습적 검사를 줄이는 것을 목표로 합니다.\nUroInsight는 이미 촬영된 CT·MRI를 AI로 다시 읽는 모듈들을 개발하고 있습니다.",
+      "추가 촬영과 침습적 검사를 줄이는 것이 목표입니다.\nCT와 MRI를 더 깊이 읽어내는 네 가지 모듈을 개발하고 있습니다."
   },
   video: {
     src: "/videos/provision.mp4",
@@ -146,7 +146,7 @@ export const solutions: SolutionsContent = {
       code: "M1",
       name: "CT 기반 전립선 용적 측정",
       description:
-        "건강검진 복부 CT에서 전립선 용적과 석회화를 측정하고 PSA 밀도를 계산하는 AI를 개발하고 있습니다. 추가 초음파 검사 없이 남성 건강 정보를 제공하는 것이 목표입니다.",
+        "건강검진 복부 CT에서 전립선 용적과 석회화를 측정하고 PSA 밀도를 계산합니다. 추가 초음파 검사 없이 남성 건강 정보를 제공합니다.",
       tags: ["건강검진 CT", "전립선 용적", "PSA 밀도"],
     },
     {
@@ -154,7 +154,7 @@ export const solutions: SolutionsContent = {
       code: "M2",
       name: "MRI 판독 보조",
       description:
-        "전립선 MRI에서 전립선 영역을 자동으로 분할하고, 병변 탐지와 악성도 예측으로 영상의학 전문의의 판독을 보조하는 AI를 개발하고 있습니다.",
+        "MRI에서 전립선 영역을 자동으로 분할하고, 병변 탐지와 악성도 예측으로 영상의학 전문의의 판독을 보조합니다.",
       tags: ["전립선 MRI", "판독 보조"],
     },
     {
@@ -162,7 +162,7 @@ export const solutions: SolutionsContent = {
       code: "M3",
       name: "BRCA 유전자 변이 예측",
       description:
-        "전립선 MRI의 영상 특징으로 BRCA 유전자 변이 가능성을 비침습적으로 예측하는 AI를 개발하고 있습니다. 유전자 검사 전 선별 단계에서 활용하는 것이 목표입니다.",
+        "전립선 MRI의 영상 특징으로 BRCA 유전자 변이 가능성을 비침습적으로 예측합니다.",
       tags: ["전립선 MRI", "BRCA", "비침습"],
     },
     {
@@ -170,7 +170,7 @@ export const solutions: SolutionsContent = {
       code: "M4",
       name: "대동맥 석회화·체성분·골밀도 측정",
       description:
-        "한 번의 건강검진 CT에서 대동맥 석회화, 내장지방과 골격근, 골밀도를 함께 측정하는 AI를 개발하고 있습니다. 활용되지 않던 영상 정보를 건강 정보로 바꾸는 것이 목표입니다.",
+        "한 번의 건강검진 CT에서 대동맥 석회화, 내장지방과 골격근, 골밀도를 함께 측정합니다.",
       tags: ["건강검진 CT", "체성분", "골밀도"],
     },
   ],
@@ -180,12 +180,12 @@ export const technology: SectionContent<FeatureItem> = {
   heading: {
     label: "Technology",
     title: "핵심 기술",
-    description: "From Image to Insight. 의료 영상을 정량화하고 해석하는 기술을 연구하고 있습니다.",
+    description: "의료 영상을 정량화하고 해석하는 기술을 연구하고 있습니다.",
   },
   items: [
     {
       title: "AI 자동 분할·정량화",
-      description: "CT·MRI에서 전립선과 세부 구조를 자동으로 분할하고 3D 부피를 계산합니다.",
+      description: "CT와 MRI에서 전립선과 세부 구조를 자동으로 분할하고 3D 부피를 계산합니다.",
     },
     {
       title: "라디오믹스 분석",
@@ -198,7 +198,7 @@ export const technology: SectionContent<FeatureItem> = {
     },
     {
       title: "통합 리포트",
-      description: "여러 분석 결과를 한 장의 리포트로 정리하고, 병원 PACS 연동을 목표로 합니다.",
+      description: "여러 분석 결과를 한 장의 리포트로 정리합니다.",
     },
   ],
 };
