@@ -17,9 +17,9 @@ export default function Leadership() {
                 src={leader.image}
                 alt={`${leader.name} ${leader.role}`}
                 fill
-                sizes="(min-width: 1152px) 960px, (min-width: 768px) 85vw, 205vw"
+                sizes="(min-width: 1152px) 360px, (min-width: 768px) 31vw, 100vw"
                 quality={90}
-                className="object-cover object-[65%_center]"
+                className="object-cover object-top"
               />
             </div>
             <div className="p-6">
