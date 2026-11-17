@@ -59,7 +59,7 @@ export const company: Company = {
 };
 
 export const siteMetadata = {
-  title: company.name,
+  title: company.nameEn,
   description: "CT와 MRI에서 진단의 단서를 찾는 의료 AI 기업",
 };
 
