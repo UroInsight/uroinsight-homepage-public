@@ -50,6 +50,7 @@ const leaders = {
 export const company: Company = {
   name: "(주)유로인사이트",
   nameEn: "UroInsight",
+  logo: "/images/logo.svg",
   ceo: leaders.ceo.name,
   businessNumber: "764-81-04002",
   address: "서울 서대문구 신촌역로 29, 405호",
@@ -59,7 +60,7 @@ export const company: Company = {
 };
 
 export const siteMetadata = {
-  title: company.name,
+  title: company.nameEn,
   description: "CT와 MRI에서 진단의 단서를 찾는 의료 AI 기업",
 };
 

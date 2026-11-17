@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AppLink from "@/components/ui/AppLink";
 import ButtonLink from "@/components/ui/ButtonLink";
 import Container from "@/components/ui/Container";
@@ -8,7 +9,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-white/90 backdrop-blur">
       <Container className="flex h-16 items-center justify-between">
-        <AppLink href={`#${sectionIds.hero}`} className="text-lg font-bold tracking-tight">
+        <AppLink
+          href={`#${sectionIds.hero}`}
+          className="flex items-center gap-2 text-lg font-bold tracking-tight"
+        >
+          {/* 바로 옆에 회사명이 있으므로 alt는 비워 스크린리더가 중복으로 읽지 않게 한다. */}
+          <Image src={company.logo} alt="" width={18} height={19} loading="eager" className="translate-y-0.1" />
           {company.nameEn}
         </AppLink>
 
