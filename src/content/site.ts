@@ -50,6 +50,7 @@ const leaders = {
 export const company: Company = {
   name: "(주)유로인사이트",
   nameEn: "UroInsight",
+  logo: "/images/logo.svg",
   ceo: leaders.ceo.name,
   businessNumber: "764-81-04002",
   address: "서울 서대문구 신촌역로 29, 405호",

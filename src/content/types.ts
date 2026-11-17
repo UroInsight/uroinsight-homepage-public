@@ -12,6 +12,7 @@ export type SectionHeadingContent = {
 export type Company = {
   name: string;
   nameEn: string;
+  logo: string;
   ceo: string;
   businessNumber: string;
   address: string;
