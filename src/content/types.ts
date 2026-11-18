@@ -50,12 +50,19 @@ export type SolutionsContent = SectionContent<SolutionItem> & {
   modulesLabel: string;
 };
 
+export type CvSection = {
+  title: string;
+  items: string[];
+};
+
 export type LeaderItem = {
   name: string;
   role: string;
   affiliation: string;
   career: string[];
   image: string;
+  /** '약력 보기' 모달 내용. 카드(affiliation, career)와 겹치는 내용은 넣지 않는다. */
+  cv: CvSection[];
 };
 
 export type SectionContent<T> = {

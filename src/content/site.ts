@@ -20,6 +20,43 @@ const leaders = {
       "전문분야: 전립선·신장암, 신장기증자, 전립선 조직검사",
     ],
     image: "/images/ljs-prof.png",
+    cv: [
+      {
+        title: "경력",
+        items: [
+          "연세대 의대 비뇨의학교실 임상조교수 (2020–2024)",
+          "연세대 의대 비뇨의학교실 임상연구조교수 (2019–2020)",
+          "연세대 의대 비뇨의학교실 임상강사 (2018–2019)",
+          "세브란스병원 비뇨의학과 전공의 (2014–2018)",
+        ],
+      },
+      {
+        title: "학회 활동",
+        items: [
+          "대한비뇨의학회(KUA) 부총무, 수련교육위원회·홍보위원회 위원",
+          "대한비뇨기로봇내시경학회(KSER) 부총무",
+          "대한전립선학회(KPS) 부총무",
+        ],
+      },
+      {
+        title: "연구·성과",
+        items: [
+          "중소벤처기업부 TIPS: AI 기반 전립선 질환 다중모듈 의료영상 플랫폼 개발, 연구책임자 (2026–2028)",
+          "한국보건산업진흥원: CT/MRI 분석과 유전 특성 예측을 통합한 AI 전립선 진단 플랫폼, 연구책임자 (2026–2028)",
+          "MRI/초음파 융합 표적 전립선 생검 다기관 전향 연구, 주관 연구책임자 (2021–2025)",
+          "논문 58편 (J Urol, Ann Surg Oncol, World J Urol 등)",
+        ],
+      },
+      {
+        title: "수상",
+        items: [
+          "SIU Annual Meeting Best Poster Award (2018)",
+          "대한전립선학회 최우수논문상 (2019)",
+          "연세의료원 최우수논문상 (2017)",
+          "Investigative and Clinical Urology Reviewer of the Month (2022)",
+        ],
+      },
+    ],
   },
   cto: {
     name: "윤종진",
@@ -32,6 +69,42 @@ const leaders = {
       "전문분야: 비뇨영상의학, 의료영상 AI, Radiomics",
     ],
     image: "/images/yjj-prof.png",
+    cv: [
+      {
+        title: "경력",
+        items: [
+          "세브란스병원 비뇨생식기영상 임상강사 (2023–2024)",
+          "세브란스병원 영상의학과 전공의 (2020–2023)",
+          "영상의학과 전문의 (2023)",
+        ],
+      },
+      {
+        title: "학회 활동",
+        items: [
+          "대한초음파의학회 교육위원",
+          "대한영상의학회지 편집위원",
+          "Korean Journal of Radiology, Ultrasonography 심사위원",
+          "RSNA · ESR · ISMRM 정회원",
+        ],
+      },
+      {
+        title: "연구·성과",
+        items: [
+          "과학기술정보통신부: 전립선 세부구조 검출·부피 측정과 임상적으로 유의한 전립선암 판별, 연구책임자",
+          "창업진흥원: AI 전립선 영상 분석 솔루션 ProVista, 연구책임자",
+          "AI 의료영상 특허 출원 5건 (전립선 영상 분석, BRCA 변이 예측 등)",
+          "원저 논문 19편",
+          "RSNA · ISMRM · ECR · EAU 등 국제학회 발표 다수",
+        ],
+      },
+      {
+        title: "수상",
+        items: [
+          "대한비뇨생식기영상의학회(KSUR) 연구초록 최우수상 (2025)",
+          "제11회 실험실창업페스티벌 경연 우수상, 과학기술정보통신부 (2025)",
+        ],
+      },
+    ],
   },
   cso: {
     name: "한현호",
@@ -44,6 +117,43 @@ const leaders = {
       "전문분야: 다기관 임상시험 설계, 종양 생물학 및 유전학",
     ],
     image: "/images/hhh-prof.png",
+    cv: [
+      {
+        title: "경력",
+        items: [
+          "세브란스병원 임상혁신센터 제1부센터장 (현재)",
+          "연세대 의대 비뇨의학교실 임상조교수 (2021–2025)",
+          "연세대 의대 비뇨의학교실 임상연구조교수 (2020–2021)",
+          "연세대 의대 병리학교실 연구원 (2013–2018)",
+          "세브란스병원 비뇨의학과 전공의 (2009–2013)",
+        ],
+      },
+      {
+        title: "학회 활동",
+        items: [
+          "대한비뇨기종양학회(KUOS) 진료지침이사",
+          "대한비뇨의학회 연구위원회 부위원장, 기초비뇨의학연구회 총무",
+          "한국유전체학회(KOGO) 학술위원",
+        ],
+      },
+      {
+        title: "연구·성과",
+        items: [
+          "한국연구재단 중견연구: 전립선암 전사체 아형 기반 약물반응 예측 (2022–2027)",
+          "논문 40여 편 (Cancer Cell, Nature Cancer, Nucleic Acids Research 등)",
+          "전립선암 아형 분류 특허 2건, DCGen에 기술이전 (2022)",
+        ],
+      },
+      {
+        title: "수상",
+        items: [
+          "U.S. DoD CDMRP Early Investigator Research Award (2019)",
+          "AUA · EAU Annual Meeting Best Poster (2022)",
+          "AACR-KCA Joint Conference Best Oral Presentation (2024)",
+          "대한비뇨기종양학회 최우수논문상 (2023, 2026)",
+        ],
+      },
+    ],
   },
 } satisfies Record<string, LeaderItem>;
 
@@ -93,6 +203,8 @@ export const uiText = {
   closeMenu: "메뉴 닫기",
   prevSlide: "이전",
   nextSlide: "다음",
+  openCv: "약력 보기",
+  closeModal: "닫기",
 };
 
 export const hero: HeroContent = {
