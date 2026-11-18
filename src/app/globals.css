@@ -19,6 +19,14 @@ html {
   scroll-padding-top: 4rem;
 }
 
+/* Tailwind v4는 버튼 커서를 기본값으로 둔다. 클릭 가능한 버튼은 손가락 모양으로 통일한다. */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
 /* 모달이 열려 있는 동안 뒤 페이지가 스크롤되지 않게 한다. */
 html:has(dialog[open]) {
   overflow: hidden;
