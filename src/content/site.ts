@@ -169,6 +169,9 @@ export const company: Company = {
   copyrightYear: 2026,
 };
 
+// 검색엔진이 대표 주소로 선택한 www 주소를 기준으로 사용
+export const siteUrl = "https://www.uroinsight.ai";
+
 export const siteMetadata = {
   title: company.nameEn,
   description: "CT와 MRI에서 진단의 단서를 찾는 의료 AI 기업",
